@@ -1,0 +1,256 @@
+body {
+  margin: 0px;
+}
+hr {
+  margin-top: 3%;
+}
+.main {
+  display: flex;
+}
+.main-title {
+  font-size: 19px;
+  padding-top: 1%;
+  margin-left: 43%;
+}
+.main-title1 {
+  padding-left: 30%;
+}
+.btn1 {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+}
+.btn1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background: #ffffff;
+  text-align: center;
+  border: 3px solid #000000;
+  color: #000000;
+  font-size: 30px;
+  font-style: oblique;
+}
+.btn1 a:hover {
+  background: #ffffff;
+  color: #000000;
+  margin-left: 0px;
+  margin-top: 0px;
+  border: 3px solid #000000;
+  box-shadow: none;
+}
+.main1 {
+  text-align: center;
+  font-size: 60px;
+  padding: 5% 0% 5% 0%;
+}
+.slideshow {
+  background-color: rgb(0, 0, 0);
+  height: 550px;
+  min-width: 960px;
+  overflow: hidden;
+  position: relative;
+}
+.slideshow img {
+  width: 100%;
+  height: 550px;
+}
+.slideshow-slides {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  /* left は JavaScript で指定 */
+}
+.slideshow-slides .slide {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  /* left は JavaScript で指定 */
+}
+.slideshow-slides .slide img {
+  left: 60.5%;
+  margin-left: -870px;
+  position: absolute;
+}
+
+.slideshow-nav a,
+.slideshow-indicator a {
+  background-color: rgba(0, 0, 0, 0); /* for IE9 */
+  overflow: hidden;
+}
+.slideshow-nav a:before,
+.slideshow-indicator a:before {
+  /* content: url(sprites.png); */
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+
+.slideshow-nav a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 72px;
+  height: 72px;
+  margin-top: -36px;
+}
+.slideshow-nav a.prev {
+  margin-left: -480px;
+}
+.slideshow-nav a.prev:before {
+  margin-top: -20px;
+}
+.slideshow-nav a.next {
+  margin-left: 408px;
+}
+.slideshow-nav a.next:before {
+  margin-left: -80px;
+  margin-top: -20px;
+}
+.slideshow-nav a.disabled {
+  display: none;
+}
+
+.slideshow-indicator {
+  bottom: 30px;
+  height: 16px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+.slideshow-indicator a {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.slideshow-indicator a.active {
+  cursor: default;
+}
+.slideshow-indicator a:before {
+  margin-left: -110px;
+}
+.slideshow-indicator a.active:before {
+  margin-left: -130px;
+}
+.main3 {
+  text-align: center;
+}
+.main3-All {
+  display: flex;
+  margin-left: 10%;
+}
+/* 写真の所は文章に変え、ボール状にする */
+.main3-1 {
+  margin: 0px 25px;
+  border-radius: 50%;
+  animation: SlideIn 4s 1;
+}
+.main3-2 {
+  margin: 0px 25px;
+  border-radius: 50%;
+  animation: SlideIn 4s 1;
+}
+.main3-3 {
+  margin: 0px 25px;
+  border-radius: 50%;
+  animation: SlideIn 4s 1;
+}
+.main3-4 {
+  margin: 0px 25px;
+  border-radius: 50%;
+  animation: SlideIn 4s 1;
+}
+
+/* CSSアニメーションの設定 */
+@keyframes SlideIn {
+  0% {
+    opacity: 0; /*初期状態では透明に*/
+    transform: translateX(-64px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.main4 h3 {
+  margin-left: -40%;
+  animation: SlideIn 4s 1;
+}
+.main4 img {
+  margin-left: -40%;
+  width: 400px;
+  height: 250px;
+  animation: SlideIn 4s 1;
+}
+.main4-1 h3 {
+  margin-left: 40%;
+  animation: SlideIn 4s 1;
+}
+.main4-1 img {
+  margin-left: 40%;
+  width: 400px;
+  height: 250px;
+  animation: SlideIn 4s 1;
+}
+.main5-All {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main5-1 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 40%;
+}
+.main5-2 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 40%;
+}
+.main5-3 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 40%;
+}
+.main5-4 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 40%;
+}
+.main5-5 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 40%;
+}
+.main5-6 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 40%;
+}
+.main5-7 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 40%;
+}
+.main5-8 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 40%;
+}
+.main5-9 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 40%;
+}
+.main5-10 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 40%;
+}
+.main6 {
+  text-align: center;
+}
